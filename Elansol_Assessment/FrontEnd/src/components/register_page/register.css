@@ -1,0 +1,253 @@
+.container { 
+    height: 100vh;
+    width: 100vw;
+}
+
+.register_nav {
+    height: 10vh;
+    width: 100vw;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 219, 187, 0.6980042016806722) 100%);
+    padding-left: 5vw;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 2rem;
+}
+
+.register1_article p {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.register_nav h1 {
+    font-size: medium;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.main_section {
+    height: 90vh;
+    width: 100vw;
+    background-image: url(../../../photo/Background.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.register1_article {
+    height: 100%;
+    width: 50%;
+    padding-left: 8vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.register_article {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.register_article section {
+    height: 70%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.register_article form {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.register1_article section {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.emp_img {
+    height: 500px;
+    width: 300px;
+}
+
+.holding_textfileds {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+.holding_register_text {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.register_article p {
+    font-size: larger;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 1200px) {
+    .register1_article,
+    .register_article {
+        width: 100%;
+    }
+
+    .emp_img {
+        height: 400px;
+        width: 80%;
+    }
+
+    .holding_textfileds {
+        flex-direction: column;
+        gap: 15%;
+    }
+
+    .register_nav {
+        padding-left: 4vw;
+    }
+
+    .main_section {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .register_article section {
+        width: 85%;
+    }
+
+    .register_article form {
+        gap: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .register1_article,
+    .register_article {
+        width: 100%;
+    }
+
+    .emp_img {
+        height: 350px;
+        width: 90%;
+    }
+
+    .holding_textfileds {
+        flex-direction: column;
+        gap: 20%;
+    }
+
+    .register_nav {
+        padding-left: 3vw;
+    }
+
+    .main_section {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .register_article section {
+        width: 90%;
+    }
+
+    .register_article p {
+        font-size: larger;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .register1_article,
+    .register_article {
+        width: 100%;
+    }
+
+    .emp_img {
+        height: 250px;
+        width: 100%;
+    }
+
+    .holding_textfileds {
+        flex-direction: column;
+        gap: 25%;
+    }
+
+    .register_nav {
+        padding-left: 2vw;
+    }
+
+    .main_section {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .register_article section {
+        width: 100%;
+    }
+
+    .register_article p {
+        font-size: medium;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .register1_article,
+    .register_article {
+        width: 100%;
+    }
+
+    .emp_img {
+        height: 200px;
+        width: 100%;
+    }
+
+    .holding_textfileds {
+        flex-direction: column;
+        gap: 30%;
+    }
+
+    .register_nav {
+        padding-left: 1vw;
+        flex-direction: column;
+    }
+
+    .main_section {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .register_article section {
+        width: 100%;
+    }
+
+    .register_article p {
+        font-size: small;
+    }
+}
