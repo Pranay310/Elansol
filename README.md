@@ -16,7 +16,8 @@ npm install
 npm run dev
 
 5.	MySQL Setup (XAMPP)
-   Note:1) The MySQL database for this project was manually configured using XAMPP. The database and tables were created directly through the XAMPP interface without the use of SQL queries. Ensure your MySQL server          is running and adjust the database configuration in the server.js file if needed.
-  	
-       	2)MySQL database tables need to be created manually. Adjust the port and database configurations as required in the server.js file.
+   Note:
+  	1) The MySQL database for this project was manually configured using XAMPP. The database and tables were created directly through the XAMPP interface without the use of SQL queries. Ensure your MySQL server
+    is running and adjust the database configuration in the server.js file if needed.
+  	2) MySQL database tables need to be created manually. Adjust the port and database configurations as required in the server.js file.
  
